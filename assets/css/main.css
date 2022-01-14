@@ -127,7 +127,34 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+	@media  screen and (max-width: 414px) {
+		.img-pfp {
+			display:block;
+			width: 40%;
+			height:40%;
+		}
+		.bg {
+			width:60%;
+			height:40%;
+		}
+		#main {
+			background-color: #071932;
+			position: relative;
+			margin: 0 auto;
+			width: 50%;
+			z-index: 2;
+		}
+		.bg-video {
+			height:10%;
+		}
+		
+		.titles{
+			padding: 10px 0px 0px 0px;
+			margin-top:0.3px;
 
+		}
+
+	}
 
 /* Type */
 
